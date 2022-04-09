@@ -1,11 +1,6 @@
 #include <stdio.h>
-/**
-* main - Entry point
-*
-* Return: Always a (Success)
-*/
-int main(void)
-{
-printf("with proper grammar, but the outcome is a piece of art")t,\n");
-return (0);
+int main() {
+//printf() displays the string inside quotation
+printf("with proper grammer, but the outcome is a piece of art,\n";
+return 0;
 }
