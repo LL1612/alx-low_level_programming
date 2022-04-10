@@ -16,7 +16,6 @@ int l;
 
 srand(time(0));
 n = rand() - RAND_MAX /2;
-scanf("%d", &n);
 
 l = n % 10;
 if (l > 5)
