@@ -3,24 +3,26 @@
 #include <stdio.h>
 /**
 *
-* main - entry point
-* is_positive -check if number is greater than 0
-* is_zero - check is number equals 0
+* main - Entry point
+* is_positive - check if number is greater than 0
 * is_negative - check if number is less than 0
+* is_zero - check if number is equal to 0
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
 int n;
 
 srand(time(0));
-n= rand() - RAND_MAX / 2;
-printf("input a number :");
+n = rand() - RAND_MAX / 2;
+printf("Input a number:");
 scanf("%d", &n);
 if (n > 0)
-printf("%d is a positive number \n", n);
-else if(n < 0)
-printf("%d is a negative number \n", n);
+printf("%d is positive\n");
+else if (n < 0)
+printf("%d is negative\n");
 else
-printf("%d is zero \n", n);
+printf("%d is zero\n", n);
 return (0);
 }
