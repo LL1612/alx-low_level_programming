@@ -1,8 +1,11 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+/**
+*main - entry point
+*
+*Return: 0 after printing the function
+*/
+int main(void)
 {
-//string intitialisation
-char x[]="Programming is like building a multilingual puzzle";
-int val = puts(x);
-return 0;
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
