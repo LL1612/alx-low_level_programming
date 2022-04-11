@@ -7,15 +7,15 @@
 int main(void)
 {
 	char ad;
-	char fp;
-	char rz;
-
-		for (ad = 'a' ; ad <= 'd' ; ad++) {
-		       for (fp = 'f' ; <= 'p'; fp++){
-		       for (rz = 'r' ; <= 'z'; rz++){
-		putchar (ad,fp,rz);
-		       }
-		       }
+		for (ad = 'a' ; ad <= 'd' ; ad++)
+		{
+		if (ad == 'q')
+		continue;
+		
+		else if (ad == 'e')
+		continue;
+	
+		putchar (ad);
 		}
 
 putchar ('\n');
