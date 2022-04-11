@@ -10,10 +10,14 @@ int main(void)
 	char cap;
 
 	for (small = 'a' ; small <= 'z' ; small++)
-	for (cap = 'A' ; cap <= 'Z' ; cap++)
 	{
-		putchar(small,cap);
+		putchar(small);
 	}
+	for (cap = 'A' ; cap <= 'Z' ; cap++)
+	{	
+		putchar(cap);
+	}
+
 	putchar ('\n');
 	return (0);
 }
