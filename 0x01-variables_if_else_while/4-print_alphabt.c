@@ -7,14 +7,12 @@
 int main(void)
 {
 	char ad;
-		for (ad = 'a' ; ad <= 'd' ; ad++)
+		for (ad = 'a' ; ad <= 'z' ; ad++)
 		{
 		if (ad == 'q')
 		continue;
-		
 		else if (ad == 'e')
 		continue;
-	
 		putchar (ad);
 		}
 
