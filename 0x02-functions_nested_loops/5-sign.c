@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - checks alphabetic character
+ * print_sign - prints character
  * @m: rep character
  * Return: 1 if letter,lower or uppercase; 0 for otherwise
  */
