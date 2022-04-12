@@ -4,14 +4,21 @@
  * @m: rep character
  * Return: 1 if letter,lower or uppercase; 0 for otherwise
  */
-int _isalpha(int m)
+int print_sign(int m)
 {
-	if ((m >= 'A' && m <= 'Z') || (m >= 'a' && m <= 'z'))
+	if (m > 0)
 	{
+		_putchar('+');
 		return (1);
+	}
+	else if (m == 0)
+	{
+		_putchar('0');
+		return (0);
 	}
 	else
 	{
-		return (0);
+	_putchar('-');
+	return (-1);
 	}
 }
