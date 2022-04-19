@@ -2,7 +2,6 @@
 /**
  * _puts - print string
  * @str: pointer to int that will be changed 
- * 
  * Return: always zero
  */
 
