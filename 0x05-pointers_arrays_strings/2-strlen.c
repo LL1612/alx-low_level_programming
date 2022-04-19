@@ -2,7 +2,7 @@
 
 /**
  * _strlen - function returns the length of a string
- * @s: Pointer to an interger
+ * @s: pointer to an interger that will be updated
  *  
  * Return: Always zero
  */
