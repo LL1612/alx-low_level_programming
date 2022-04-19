@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * reset_to_98: function takes a pointer to interger
- * @n: is an integer
+ * reset_to_98: function takes a pointer to 98
+ * @n: A pointrt to an integer
  *
- * Return: always 98
+ * Return: void means correct
  */
 
 void reset_to_98(int *n)
