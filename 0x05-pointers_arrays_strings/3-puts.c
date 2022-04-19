@@ -11,7 +11,7 @@ void _puts(char *str)
 	char *c;
 	int m;
 
-	c = srt;
+	c = str;
 
 	for (m = 0; c[m]; m++)
 	{
