@@ -1,12 +1,20 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
- * _putchar -writes the character c to stdout
- * @c: character to print
- * Return: Success 1
- * on error, -1 is returned, and error is there returned
+ * _puts - print string
+ * @str: pointer to int that will be changed 
+ * Return: always zero
  */
 
-int _putchar(char c)
-{return (write(1, &c, 1));
+void _puts(char *str)
+{
+	char *c;
+	int m;
+
+	c = srt;
+
+	for (m = 0; c[m]; m++)
+	{
+		_putchar(c[m]);
+	}
+	_putchar('\n');
 }
