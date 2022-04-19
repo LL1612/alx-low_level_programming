@@ -2,7 +2,8 @@
 
 /**
  * _strlen - function returns the length of a string
- *  
+ * @s: pointer to integer to be changed
+ * 
  * Return: Always zero
  */
 
