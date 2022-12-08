@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main -prints out the quote
+ * main - write it out the quote
  * return: 1 if success
  */
 int main(void) 
