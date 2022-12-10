@@ -12,10 +12,8 @@ int main(void)
 	if (num1 == 8 && num2 == 9)
 	continue;
 	putchar(',');
-	putchar(' ');
-	}}
+	iputchar(' ');
+	}
 putchar('\n');
 return (0);
 }
-
-
