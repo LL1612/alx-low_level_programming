@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * print_rev - print string
- * @s : str to print 
+ * @s : str to print
  *
  * Return: void if awnser is ok
  */
 
 void print_rev(char *s)
 {
-	int i, n, len;
+	int i;
 	
 	i = 0;
 
@@ -16,12 +16,9 @@ void print_rev(char *s)
 	{
 		i++;
 	}
-
-	len = i;
-
-	for (n = len - 1; n >= 0; n--)
+for (i = i - 1; i >= 0; i--)
 	{
-		_putchar(s[n]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
-	)
+}
