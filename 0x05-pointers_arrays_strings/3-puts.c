@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - print string
- * @str: pointer to int that will be changed 
+ * @str : pointer to int that will be changed
  * Return: always zero
  */
 
