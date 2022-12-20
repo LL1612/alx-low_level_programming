@@ -1,14 +1,15 @@
 #include "main.h"
 /**
  * print_rev - print string
- * len is to count to end
- * @s : str input 
- * Return: string in reverse
+ * @s : str to print 
+ *
+ * Return: void if awnser is ok
  */
 
-void print_rev(char *s);
-(
- 	(int i, n, len);
+void print_rev(char *s)
+{
+	int i, n, len;
+	
 	i = 0;
 
 	while (s[i] != '\0')
