@@ -7,7 +7,7 @@
  */
 
 void print_rev(char *s);
-{
+(
  	(int i, n, len);
 	i = 0;
 
@@ -23,4 +23,4 @@ void print_rev(char *s);
 		_putchar(s[n]);
 	}
 	_putchar('\n');
-}
+	)
