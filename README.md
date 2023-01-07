@@ -1,1 +1,1 @@
-c programming 
+//*argc (ARGument Count) is int and stores number of command-line arguments passed by the user including the name of the program. So if we pass a value to a program, value of argc would be 2 (one for argument and one for program name)c programming 
